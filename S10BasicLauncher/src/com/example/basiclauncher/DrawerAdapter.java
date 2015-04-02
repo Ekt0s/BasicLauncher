@@ -58,7 +58,7 @@ public class DrawerAdapter extends BaseAdapter{
 		else
 			viewHolder = (ViewHolder) convertView.getTag();
 		
-		System.out.println("DSSSSSSSSSSSSSSSSSSSSSSS");
+//		System.out.println("DSSSSSSSSSSSSSSSSSSSSSSS");
 		viewHolder.text.setText(pacsForAdapter[pos].label);
 		viewHolder.icon.setImageDrawable(pacsForAdapter[pos].icon);
 
